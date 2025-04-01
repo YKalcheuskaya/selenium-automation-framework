@@ -37,7 +37,9 @@ public class LandingPage {
             e.printStackTrace();
         }
         if (driver.getCurrentUrl().contains("login")) {
+
             throw new RuntimeException("This is change from main branch");
+
         }
         return new ProductCatalogue(driver);
     }
