@@ -1,0 +1,21 @@
+# IntelliJ
+.idea/
+*.iml
+
+# MacOS
+.DS_Store
+
+# Maven
+/target/
+
+# Logs
+*.log
+
+# Reports
+/reports/
+
+# Screenshots or test outputs
+*.png
+
+# System files
+Thumbs.db
