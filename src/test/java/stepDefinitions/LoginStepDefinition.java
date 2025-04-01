@@ -13,6 +13,8 @@ public class LoginStepDefinition extends BaseTest {
         System.out.println("🔸 Opening landing page");
     }
 
+    // Testing GitHub webhook trigger
+
     @When("User logs in with username {string} and password {string}")
     public void user_logs_in_with_username_and_password(String username, String password) {
         landingPage.login(username, password); // Вызываем login()
