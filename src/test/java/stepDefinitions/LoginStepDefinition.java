@@ -7,6 +7,8 @@ import tests.Components.BaseTest;
 
 public class LoginStepDefinition extends BaseTest {
 
+    //"Trigger webhook again manually"
+
     @Given("User is on landing page")
     public void user_is_on_landing_page() {
         landingPage.goTo();  // Добавить вызов goTo()
