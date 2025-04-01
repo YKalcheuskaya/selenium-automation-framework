@@ -18,6 +18,7 @@ public class CartPage extends AbstractComponent {
 
     }
 
+    // This is a test comment added as part of Git branching practice.
     @FindBy(css = ".cartSection h3")
     List<WebElement> cartProducts;
 
